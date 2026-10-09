@@ -1,0 +1,12 @@
+2026-10-09 11:13:17 | INFO | conftest | INICIO: test_login_exitoso
+2026-10-09 11:13:18 | INFO | conftest | Chrome abierto
+2026-10-09 11:13:19 | INFO | conftest | RESULTADO: test_login_exitoso | PASSED
+2026-10-09 11:13:19 | INFO | conftest | Cerrando Chrome
+2026-10-09 11:13:21 | INFO | conftest | INICIO: test_catalogo_productos
+2026-10-09 11:13:22 | INFO | conftest | Chrome abierto
+2026-10-09 11:13:23 | INFO | conftest | RESULTADO: test_catalogo_productos | PASSED
+2026-10-09 11:13:23 | INFO | conftest | Cerrando Chrome
+2026-10-09 11:13:25 | INFO | conftest | INICIO: test_agregar_producto_al_carrito
+2026-10-09 11:13:26 | INFO | conftest | Chrome abierto
+2026-10-09 11:13:27 | INFO | conftest | RESULTADO: test_agregar_producto_al_carrito | PASSED
+2026-10-09 11:13:27 | INFO | conftest | Cerrando Chrome
