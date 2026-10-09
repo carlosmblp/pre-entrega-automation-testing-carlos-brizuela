@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 import pytest
-from selenium import webdriver
+from selenium import webdriver #Importamos la librería que permite controlar el navegador
 
 
 logger = logging.getLogger(__name__)
@@ -19,6 +19,9 @@ def navegador(request):
     logger.info("INICIO: %s", request.node.name)
 
     driver = webdriver.Chrome()
+    #  navegador = webdriver.Chrome(
+    #     service=Service(ChromeDriverManager().install())
+    # )
 
     # Guardar el navegador para poder capturar también fallos de preparación.
     request.node._navegador = driver
